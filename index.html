@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MrButler | RXB Fortnite Pro, Content Creator & Kick Partner</title>
+  <meta name="description" content="Official website of Emery 'MrButler' Butler — RXB Fortnite pro, content creator, 44x Unreal player, Kick Partner, and creator managed by Force Management." />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#7b18ff" />
+  <link rel="canonical" href="https://mrbutlertv.com/" />
+
+  <meta property="og:title" content="MrButler | RXB Fortnite Pro & Content Creator" />
+  <meta property="og:description" content="Official website of MrButler — RXB Fortnite pro, content creator, 44x Unreal player and Kick Partner." />
+  <meta property="og:type" content="profile" />
+  <meta property="og:url" content="https://mrbutlertv.com/" />
+  <meta property="og:image" content="https://mrbutlertv.com/mrbutler-rxb-main.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="MrButler | RXB Fortnite Pro & Content Creator" />
+  <meta name="twitter:description" content="RXB Fortnite pro, content creator, 44x Unreal player and Kick Partner." />
+  <meta name="twitter:image" content="https://mrbutlertv.com/mrbutler-rxb-main.png" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Emery Butler",
+    "alternateName": "MrButler",
+    "url": "https://mrbutlertv.com/",
+    "image": "https://mrbutlertv.com/mrbutler-rxb-main.png",
+    "birthDate": "1996-09-07",
+    "birthPlace": {
+      "@type": "Place",
+      "name": "Darlington, South Carolina, United States"
+    },
+    "nationality": {
+      "@type": "Country",
+      "name": "United States"
+    },
+    "jobTitle": [
+      "Fortnite Pro",
+      "Competitive Fortnite Player",
+      "Content Creator",
+      "Kick Partner"
+    ],
+    "description": "Emery 'MrButler' Butler is an American competitive Fortnite player and content creator representing RXB Esports. He is a 44x Unreal player and Kick Partner.",
+    "memberOf": {
+      "@type": "Organization",
+      "name": "RXB Esports"
+    },
+    "agent": {
+      "@type": "Organization",
+      "name": "Force Management"
+    },
+    "sameAs": [
+      "https://twitch.tv/mrbutler",
+      "https://www.tiktok.com/@7venmrbutler",
+      "https://www.instagram.com/mrbutlertv",
+      "https://kick.com/mrbutler"
+    ]
+  }
+  </script>
+
+  <style>
+    :root{
+      --bg:#050208;
+      --bg2:#0b0312;
+      --panel:#100718;
+      --panel2:#160a22;
+      --text:#fbf8ff;
+      --muted:#bcb3c9;
+      --purple:#8a20ff;
+      --purple2:#bb4dff;
+      --purple3:#5b0bb8;
+      --border:rgba(166,74,255,.27);
+      --border-strong:rgba(187,77,255,.58);
+      --shadow:0 24px 80px rgba(0,0,0,.58);
+      --glow:0 0 38px rgba(138,32,255,.28);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:Inter,Arial,Helvetica,sans-serif;
+      color:var(--text);
+      background:
+        radial-gradient(circle at 88% 6%, rgba(138,32,255,.18), transparent 25%),
+        radial-gradient(circle at 8% 34%, rgba(91,11,184,.13), transparent 30%),
+        linear-gradient(180deg,#050208 0%,#08030d 52%,#050208 100%);
+      line-height:1.6;
+      overflow-x:hidden;
+    }
+    body:before{
+      content:"";
+      position:fixed;
+      inset:0;
+      pointer-events:none;
+      opacity:.13;
+      background-image:
+        linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),
+        linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);
+      background-size:42px 42px;
+      mask-image:linear-gradient(to bottom,rgba(0,0,0,.7),transparent 78%);
+    }
+    a{color:inherit}
+    img{max-width:100%}
+    .wrap{width:min(1160px,92%);margin:auto}
+
+    nav{
+      position:sticky;top:0;z-index:30;
+      backdrop-filter:blur(18px);
+      background:rgba(5,2,8,.80);
+      border-bottom:1px solid var(--border);
+    }
+    .nav-inner{display:flex;justify-content:space-between;align-items:center;padding:15px 0;gap:20px}
+    .brand{font-weight:950;letter-spacing:.08em;font-size:1.02rem}
+    .brand span{color:var(--purple2)}
+    .nav-links{display:flex;gap:18px;flex-wrap:wrap;align-items:center}
+    .nav-links a{text-decoration:none;color:var(--muted);font-weight:800;font-size:.9rem;transition:.2s ease}
+    .nav-links a:hover{color:var(--purple2)}
+    .nav-pill{padding:8px 12px;border:1px solid var(--border);border-radius:999px;background:rgba(138,32,255,.08)}
+
+    .hero{
+      min-height:84vh;
+      display:grid;
+      place-items:center;
+      padding:74px 0 48px;
+      position:relative;
+      isolation:isolate;
+    }
+    .hero:after{
+      content:"RXB";
+      position:absolute;
+      right:-1vw;top:8%;z-index:-1;
+      font-size:clamp(8rem,24vw,22rem);
+      font-weight:1000;
+      line-height:.8;
+      color:transparent;
+      -webkit-text-stroke:1px rgba(174,80,255,.09);
+      transform:rotate(-6deg);
+      letter-spacing:-.08em;
+    }
+    .hero-grid{display:grid;grid-template-columns:1.06fr .94fr;gap:46px;align-items:center}
+    .eyebrow{
+      color:var(--purple2);
+      text-transform:uppercase;
+      letter-spacing:.18em;
+      font-size:.77rem;
+      font-weight:950;
+    }
+    .eyebrow:before{content:"";display:inline-block;width:28px;height:2px;background:var(--purple2);vertical-align:middle;margin-right:10px;box-shadow:0 0 16px var(--purple)}
+    h1{
+      font-size:clamp(3.2rem,8vw,6.9rem);
+      line-height:.91;
+      margin:13px 0 21px;
+      letter-spacing:-.055em;
+      text-transform:uppercase;
+    }
+    h1 .accent{color:var(--purple2);text-shadow:0 0 26px rgba(187,77,255,.22)}
+    .hero p{font-size:1.16rem;color:var(--muted);max-width:680px;margin:0}
+    .hero p strong{color:#fff}
+    .buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+    .btn{
+      text-decoration:none;
+      padding:13px 19px;
+      border-radius:12px;
+      font-weight:950;
+      border:1px solid var(--border);
+      background:rgba(16,7,24,.9);
+      transition:.22s ease;
+      box-shadow:0 8px 24px rgba(0,0,0,.18);
+    }
+    .btn:hover{transform:translateY(-2px);border-color:var(--purple2);box-shadow:var(--glow)}
+    .btn.primary{background:linear-gradient(135deg,var(--purple),#6420da);color:#fff;border-color:transparent;box-shadow:0 12px 34px rgba(115,22,236,.28)}
+
+    .portrait-card{
+      position:relative;
+      border-radius:26px;
+      overflow:hidden;
+      border:1px solid var(--border-strong);
+      box-shadow:var(--shadow),var(--glow);
+      background:var(--panel);
+    }
+    .portrait-card img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover}
+    .portrait-card:after{content:"";position:absolute;inset:0;box-shadow:inset 0 0 95px rgba(0,0,0,.22);pointer-events:none}
+    .portrait-badge{
+      position:absolute;left:18px;bottom:18px;z-index:2;
+      background:rgba(5,2,8,.82);border:1px solid var(--border-strong);
+      backdrop-filter:blur(10px);padding:10px 13px;border-radius:11px;
+      font-size:.8rem;font-weight:950;letter-spacing:.08em;text-transform:uppercase;
+    }
+    .portrait-badge span{color:var(--purple2)}
+
+    .stats{display:grid;grid-template-columns:repeat(5,1fr);gap:13px;margin:8px 0 70px}
+    .stat{padding:22px 16px;background:linear-gradient(180deg,rgba(22,10,34,.96),rgba(12,5,19,.96));border:1px solid var(--border);border-radius:16px;text-align:center;transition:.2s ease}
+    .stat:hover{transform:translateY(-3px);border-color:var(--border-strong)}
+    .stat strong{display:block;color:var(--purple2);font-size:1.68rem;line-height:1.1}
+    .stat span{color:var(--muted);font-size:.86rem}
+
+    section{padding:72px 0}
+    .section-title{font-size:clamp(2.15rem,5vw,3.7rem);line-height:1;margin:0 0 17px;letter-spacing:-.04em;text-transform:uppercase}
+    .section-title .accent{color:var(--purple2)}
+    .section-sub{color:var(--muted);max-width:770px;margin:0 0 32px}
+    .about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:24px}
+    .card{background:linear-gradient(180deg,rgba(22,10,34,.95),rgba(10,4,16,.98));border:1px solid var(--border);border-radius:20px;padding:28px;box-shadow:var(--shadow)}
+    .card h3{margin-top:0;color:var(--purple2);font-size:1.15rem;text-transform:uppercase;letter-spacing:.06em}
+    .list{display:grid;gap:13px}
+    .item{padding:14px 0;border-bottom:1px solid rgba(166,74,255,.12)}
+    .item:last-child{border-bottom:0}
+    .item b{display:block;color:var(--purple2);font-size:.76rem;text-transform:uppercase;letter-spacing:.14em;margin-bottom:2px}
+
+    .signed-section{position:relative}
+    .signed-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:34px;align-items:center}
+    .signed-photo{border-radius:24px;overflow:hidden;border:1px solid var(--border-strong);box-shadow:var(--shadow),var(--glow);background:var(--panel)}
+    .signed-photo img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center}
+    .signed-copy{padding:14px 0}
+    .signed-tag{display:inline-flex;align-items:center;gap:9px;border:1px solid var(--border);background:rgba(138,32,255,.08);padding:8px 12px;border-radius:999px;color:var(--purple2);font-weight:900;font-size:.78rem;text-transform:uppercase;letter-spacing:.1em;margin-bottom:18px}
+    .signed-copy p{color:var(--muted);font-size:1.08rem}
+    .signed-copy strong{color:#fff}
+    .signed-meta{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:25px}
+    .signed-meta div{border:1px solid var(--border);background:rgba(14,6,22,.78);border-radius:14px;padding:15px}
+    .signed-meta span{display:block;color:var(--muted);font-size:.75rem;text-transform:uppercase;letter-spacing:.1em}
+    .signed-meta b{font-size:1.03rem;color:var(--purple2)}
+
+    .timeline{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:28px}
+    .team-card{position:relative;background:linear-gradient(180deg,rgba(22,10,34,.95),rgba(10,4,16,.98));border:1px solid var(--border);border-radius:18px;padding:24px;min-height:180px}
+    .team-card.current{border-color:var(--border-strong);box-shadow:var(--glow)}
+    .team-card .status{display:inline-block;color:var(--muted);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;font-weight:900;margin-bottom:30px}
+    .team-card.current .status{color:var(--purple2)}
+    .team-card h3{margin:0 0 6px;font-size:1.55rem}
+    .team-card p{color:var(--muted);margin:0}
+    .team-card .arrow{position:absolute;right:18px;top:18px;color:var(--purple2);font-size:1.2rem}
+
+    .social-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+    .social{display:block;text-decoration:none;padding:22px;border-radius:16px;background:linear-gradient(180deg,rgba(20,9,31,.94),rgba(10,4,16,.98));border:1px solid var(--border);transition:.2s ease}
+    .social:hover{border-color:var(--purple2);transform:translateY(-3px);box-shadow:var(--glow)}
+    .social b{display:block;color:var(--purple2);font-size:1.22rem}
+    .social span{color:var(--muted)}
+
+    .cta{padding:78px 0}
+    .cta-box{position:relative;overflow:hidden;background:linear-gradient(135deg,rgba(84,13,177,.44),rgba(22,8,35,.95) 60%);border:1px solid var(--border-strong);border-radius:26px;padding:42px;box-shadow:var(--shadow)}
+    .cta-box:after{content:"RXB";position:absolute;right:-18px;bottom:-44px;color:rgba(255,255,255,.035);font-weight:1000;font-size:11rem;line-height:1}
+    .cta-box h2{font-size:clamp(2.1rem,5vw,4rem);line-height:1;margin:0 0 14px;text-transform:uppercase;letter-spacing:-.04em}
+    .cta-box p{color:var(--muted);max-width:720px;margin:0}
+
+    footer{padding:30px 0 42px;border-top:1px solid var(--border);color:var(--muted)}
+    .footer-inner{display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap}
+    .footer-right{text-align:right}
+    .footer-right b{color:#fff}
+
+    @media(max-width:980px){
+      .hero-grid,.about-grid,.signed-grid{grid-template-columns:1fr}
+      .hero{min-height:auto}
+      .portrait-card{max-width:700px}
+      .stats{grid-template-columns:repeat(2,1fr)}
+      .timeline{grid-template-columns:1fr}
+      .signed-photo{max-width:720px}
+    }
+    @media(max-width:700px){
+      .social-grid{grid-template-columns:1fr 1fr}
+      .nav-links a:not(.nav-pill){display:none}
+      .signed-meta{grid-template-columns:1fr}
+      .hero{padding-top:54px}
+      .cta-box{padding:30px 22px}
+    }
+    @media(max-width:560px){
+      .stats,.social-grid{grid-template-columns:1fr}
+      h1{font-size:3.45rem}
+      section{padding:58px 0}
+      .card{padding:22px}
+      .footer-right{text-align:left}
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="wrap nav-inner">
+      <div class="brand">MR<span>BUTLER</span></div>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#rxb">RXB</a>
+        <a href="#career">Career</a>
+        <a href="#socials">Socials</a>
+        <a class="nav-pill" href="mailto:tiktokmrbutler@gmail.com">Business</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow">RXB • Fortnite • Content</div>
+        <h1>Known as <span class="accent">MrButler</span></h1>
+        <p>
+          <strong>Fortnite Pro & Content Creator for RXB Esports.</strong> 44× Unreal, Kick Partner,
+          and multi-platform creator building the next chapter through competition, livestreaming,
+          and content.
+        </p>
+        <div class="buttons">
+          <a class="btn primary" href="https://kick.com/mrbutler" target="_blank" rel="noopener">Watch on Kick</a>
+          <a class="btn" href="#rxb">RXB Signing</a>
+          <a class="btn" href="mailto:tiktokmrbutler@gmail.com">Business Inquiries</a>
+        </div>
+      </div>
+      <div class="portrait-card">
+        <img src="mrbutler-rxb-main.png" alt="MrButler wearing an RXB esports jersey" />
+        <div class="portrait-badge"><span>RXB</span> • MrButler</div>
+      </div>
+    </div>
+  </header>
+
+  <div class="wrap stats">
+    <div class="stat"><strong>112K+</strong><span>TikTok followers</span></div>
+    <div class="stat"><strong>16K+</strong><span>Twitch followers</span></div>
+    <div class="stat"><strong>15K+</strong><span>Instagram followers</span></div>
+    <div class="stat"><strong>44×</strong><span>Unreal</span></div>
+    <div class="stat"><strong>$1.3K</strong><span>Unofficial earnings</span></div>
+  </div>
+
+  <section id="about">
+    <div class="wrap">
+      <h2 class="section-title">About <span class="accent">MrButler</span></h2>
+      <p class="section-sub">Competitive Fortnite, creator growth, and a career built across multiple platforms.</p>
+
+      <div class="about-grid">
+        <article class="card">
+          <h3>His Story</h3>
+          <p>
+            Emery “MrButler” Butler is an American competitive Fortnite player and content creator.
+            Since 2022, he has built his platform through livestreaming, competitive gameplay,
+            short-form content, and a growing community across multiple social platforms.
+          </p>
+          <p>
+            MrButler competes across Fortnite modes and tournaments while continuing to grow as a creator.
+            He has reached Unreal rank 44 times and is currently a <strong>Kick Partner</strong>.
+          </p>
+          <p>
+            After previous chapters with OneUp Esports and 7VEN Club, MrButler signed with
+            <strong>RXB Esports</strong> as a Fortnite pro and content creator.
+          </p>
+        </article>
+
+        <aside class="card">
+          <h3>Creator Profile</h3>
+          <div class="list">
+            <div class="item"><b>Known As</b>MrButler</div>
+            <div class="item"><b>Real Name</b>Emery Butler</div>
+            <div class="item"><b>Born</b>September 7, 1996</div>
+            <div class="item"><b>Role</b>Fortnite Pro & Content Creator</div>
+            <div class="item"><b>Current Organization</b>RXB Esports</div>
+            <div class="item"><b>Streaming Status</b>Kick Partner</div>
+            <div class="item"><b>Management</b>Force Management</div>
+            <div class="item"><b>Creator Code</b>MrButler</div>
+            <div class="item"><b>Business Email</b>tiktokmrbutler@gmail.com</div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section id="rxb" class="signed-section">
+    <div class="wrap signed-grid">
+      <div class="signed-photo">
+        <img src="mrbutler-rxb-signing.jpeg" alt="MrButler RXB signing announcement portrait" />
+      </div>
+      <div class="signed-copy">
+        <div class="signed-tag">Current Organization • RXB Esports</div>
+        <h2 class="section-title">Signed with <span class="accent">RXB</span></h2>
+        <p>
+          MrButler’s newest esports chapter is with <strong>RXB Esports</strong>, where he represents the organization
+          as a Fortnite pro and content creator. The move brings his competitive identity and growing creator brand
+          together under RXB’s purple banner.
+        </p>
+        <p>
+          He continues to compete, create short-form content, and stream while building his presence across Fortnite
+          and the broader gaming community.
+        </p>
+        <div class="signed-meta">
+          <div><span>Team</span><b>RXB Esports</b></div>
+          <div><span>Role</span><b>Pro + Content Creator</b></div>
+          <div><span>Management</span><b>Force Management</b></div>
+          <div><span>Creator Code</span><b>MrButler</b></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="career">
+    <div class="wrap">
+      <h2 class="section-title">Esports <span class="accent">History</span></h2>
+      <p class="section-sub">The organizations that have been part of MrButler’s creator and competitive journey.</p>
+      <div class="timeline">
+        <article class="team-card">
+          <span class="status">Past Organization</span>
+          <span class="arrow">→</span>
+          <h3>OneUp Esports</h3>
+          <p>An earlier chapter in MrButler’s esports journey.</p>
+        </article>
+        <article class="team-card">
+          <span class="status">Past Organization</span>
+          <span class="arrow">→</span>
+          <h3>7VEN Club</h3>
+          <p>Former competitive and creator organization.</p>
+        </article>
+        <article class="team-card current">
+          <span class="status">Current Organization</span>
+          <span class="arrow">◆</span>
+          <h3>RXB Esports</h3>
+          <p>Current home as a Fortnite pro and content creator.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="socials">
+    <div class="wrap">
+      <h2 class="section-title">Connect with <span class="accent">MrButler</span></h2>
+      <p class="section-sub">Official profiles and current creator presence.</p>
+
+      <div class="social-grid">
+        <a class="social" href="https://www.tiktok.com/@7venmrbutler" target="_blank" rel="noopener">
+          <b>TikTok</b><span>112K+ followers</span>
+        </a>
+        <a class="social" href="https://twitch.tv/mrbutler" target="_blank" rel="noopener">
+          <b>Twitch</b><span>16K+ followers</span>
+        </a>
+        <a class="social" href="https://www.instagram.com/mrbutlertv" target="_blank" rel="noopener">
+          <b>Instagram</b><span>15K+ followers</span>
+        </a>
+        <a class="social" href="https://kick.com/mrbutler" target="_blank" rel="noopener">
+          <b>Kick</b><span>Kick Partner • Primary stream</span>
+        </a>
+        <div class="social"><b>YouTube</b><span>Video & creator content</span></div>
+        <div class="social"><b>Snapchat</b><span>Spotlight & creator content</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="contact">
+    <div class="wrap">
+      <div class="cta-box">
+        <div class="eyebrow">Business • Partnerships • Esports</div>
+        <h2>Work with <span class="accent">MrButler</span></h2>
+        <p>
+          For brand partnerships, creator campaigns, esports opportunities, sponsorships, and collaborations.
+          MrButler is represented by <strong>Force Management</strong>.
+        </p>
+        <div class="buttons">
+          <a class="btn primary" href="mailto:tiktokmrbutler@gmail.com">Contact MrButler</a>
+          <a class="btn" href="https://kick.com/mrbutler" target="_blank" rel="noopener">Kick</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <div>
+        <div class="brand">MR<span>BUTLER</span></div>
+        <div>© 2026 MrButler. Official creator website.</div>
+      </div>
+      <div class="footer-right">
+        <b>RXB Esports</b><br />
+        Fortnite Pro • Content Creator • Kick Partner
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
